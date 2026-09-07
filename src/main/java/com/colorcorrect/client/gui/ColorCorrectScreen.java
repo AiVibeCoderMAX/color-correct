@@ -228,7 +228,12 @@ public class ColorCorrectScreen extends Screen {
 
 	@Override
 	public void render(DrawContext context, int mouseX, int mouseY, float delta) {
-		this.renderBackground(context, mouseX, mouseY, delta);
+		// NOTE: we deliberately do NOT call renderBackground() here. In 1.21.9+
+		// the menu-background blur pass may only run once per frame, and the GUI
+		// has already blurred by the time a screen's render() runs — asking for
+		// it again throws "Can only blur once per frame". We draw our own opaque
+		// backdrop instead.
+		context.fill(0, 0, this.width, this.height, 0xE60D0F14);
 
 		context.drawTextWithShadow(textRenderer, this.title, 10, 14, 0xFFFFFFFF);
 
