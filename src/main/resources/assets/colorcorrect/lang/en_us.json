@@ -1,0 +1,47 @@
+{
+	"category.colorcorrect": "Color Correct",
+
+	"key.colorcorrect.open": "Open Color Correct",
+	"key.colorcorrect.toggle": "Toggle Color Correct",
+	"key.colorcorrect.compare": "Hold to Compare (before/after)",
+
+	"colorcorrect.title": "Color Correct",
+	"colorcorrect.done": "Done",
+	"colorcorrect.resetAll": "Reset All",
+	"colorcorrect.hint.keys": "K: open  |  F6: toggle  |  C (hold): compare",
+
+	"colorcorrect.category.wb": "White Balance",
+	"colorcorrect.category.tone": "Light",
+	"colorcorrect.category.wheels": "Color Wheels",
+	"colorcorrect.category.creative": "Creative",
+	"colorcorrect.category.effects": "Effects",
+	"colorcorrect.category.presets": "Presets",
+
+	"colorcorrect.wheel.shadow": "Shadows",
+	"colorcorrect.wheel.mid": "Midtones",
+	"colorcorrect.wheel.highlight": "Highlights",
+
+	"colorcorrect.setting.temperature": "Temperature",
+	"colorcorrect.setting.tint": "Tint",
+	"colorcorrect.setting.exposure": "Exposure",
+	"colorcorrect.setting.contrast": "Contrast",
+	"colorcorrect.setting.highlights": "Highlights",
+	"colorcorrect.setting.shadows": "Shadows",
+	"colorcorrect.setting.whites": "Whites",
+	"colorcorrect.setting.blacks": "Blacks",
+	"colorcorrect.setting.look": "Look",
+	"colorcorrect.setting.colorSpace": "Color Space",
+	"colorcorrect.setting.intensity": "Intensity",
+	"colorcorrect.setting.fadedFilm": "Faded Film",
+	"colorcorrect.setting.sharpen": "Sharpen",
+	"colorcorrect.setting.vibrance": "Vibrance",
+	"colorcorrect.setting.saturation": "Saturation",
+	"colorcorrect.setting.clarity": "Clarity",
+	"colorcorrect.setting.grain": "Grain",
+	"colorcorrect.setting.vignette": "Vignette",
+	"colorcorrect.setting.aberration": "Aberration",
+	"colorcorrect.setting.splitShadowHue": "Split Shadow Hue",
+	"colorcorrect.setting.splitShadowSat": "Split Shadow Sat",
+	"colorcorrect.setting.splitHighlightHue": "Split Highlight Hue",
+	"colorcorrect.setting.splitHighlightSat": "Split Highlight Sat"
+}

@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "colorcorrect",
+	"version": "${version}",
+	"name": "Color Correct",
+	"description": "Editor-style color grading for Minecraft: white balance, tone, color wheels, film grain and more, applied as a real post-processing pipeline.",
+	"authors": [
+		"Color Correct"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/color-correct",
+		"sources": "https://github.com/colorcorrect/color-correct"
+	},
+	"license": "MIT",
+	"icon": "assets/colorcorrect/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.colorcorrect.ColorCorrectClient"
+		],
+		"modmenu": [
+			"com.colorcorrect.compat.ColorCorrectModMenu"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
